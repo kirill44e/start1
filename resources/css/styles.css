@@ -1,0 +1,235 @@
+* {
+	box-sizing: border-box;
+	color: #00051F;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+	background-color: #B9DDFF;
+}
+
+div.block_width {
+	width: 400px;
+	margin: auto;
+	text-align: center;
+}
+
+div.div_block1, div.div_block2, div.div_block3 {
+	clear: both;
+	border-radius: 6px;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 16px;
+	color: #FFFFFF;
+	height: 35px;
+}
+
+div.div_block1 {
+	background: linear-gradient(180deg, #504DC4 0%, rgba(52, 210, 49, 0.34) 71.87%, rgba(255, 255, 255, 0) 100%);
+}
+
+div.div_block2 {
+	background: linear-gradient(180deg, #C44DA2 0%, rgba(139, 49, 210, 0.34) 71.87%, rgba(255, 255, 255, 0) 100%);
+}
+
+div.div_block3 {
+	background: linear-gradient(180deg, #41E03E 8.85%, rgba(49, 123, 210, 0.34) 73.96%, rgba(255, 255, 255, 0) 100%);
+}
+
+div.div_block1, div.div_block2, div.div_block3, d > p {
+	padding-top: 10px;
+}
+
+div.bl1 {
+	width: 100%;
+}
+
+div.d1 {
+	width: 100%;
+	min-height: 150px;
+	max-height: 200px;
+}
+
+#dd1, #dd2, #dd3, #dd4, #dd5, #dd6, #dd7, #dd8, #dd9, #dd10, #dd11, #dd12, #dd13, #dd14, #dd15, #dd16, #dd17, #dd18, #dd19, 
+#dd20, #dd21, #dd22 {
+	width: 100%;
+	height: 50px;
+	display: none;
+}
+
+div.block1 {
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+div.blockone {
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 10px;
+}
+
+h1 {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	color: #FFFFFF;
+	text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+p {
+	font-style: normal;
+	font-weight: 250;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: gray;
+}
+
+input[type=checkbox]:checked ~ #dd1 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd2 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd3 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd4 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd5 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd6 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd7 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd8 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd9 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd10 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd11 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd12 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd13 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd14 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd15 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd16 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd17 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd18 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd19 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd20 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd21 {
+    display: block;
+}
+
+input[type=checkbox]:checked ~ #dd22 {
+    display: block;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+div.d2>div.block1 {
+	transform: translateX(-50%);
+	animation: ani 1s ease-in-out forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateX(-50%);}
+  15% {transform: translateX(5%);}
+  30% {transform: translateX(-5%);}
+  45% {transform: translateX(3%);}
+  60% {transform: translateX(-3%);}
+  75% {transform: translateX(1%);}
+  85% {transform: translateX(-1%);}
+  100% {transform: translateX(0);}
+}
+
+.btn, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn10,
+.btn11, .btn12, .btn13, .btn14, .btn15, .btn16, .btn17, .btn18, .btn19, .btn20,
+.btn21, .btn22 {
+	width: 70px;
+	height: 30px;
+	padding: auto;
+	background: #41E03E;
+	border-radius: 5px;
+	border: none;
+	color: #FFFFFF;
+}
+
+button.note {
+	width: 70px;
+	height: 30px;
+	padding: auto;
+	background: #7274ee;
+	border-radius: 5px;
+	border: none;
+	color: #FFFFFF;
+}
+
+.active {
+	color: red;
+}
+
+
